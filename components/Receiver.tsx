@@ -1,8 +1,8 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import { connectionService } from '../services/connectionService';
 import { VibrationCommand } from '../types';
 import { Button } from './Button';
-import { Wifi, Radio, StopCircle, Zap } from 'lucide-react';
+import { Wifi, Zap } from 'lucide-react';
 
 export const Receiver: React.FC<{ onBack: () => void }> = ({ onBack }) => {
   const [isActive, setIsActive] = useState(false);

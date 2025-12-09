@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { connectionService } from '../services/connectionService';
 import { generateVibrationPattern } from '../services/geminiService';
 import { Button } from './Button';
-import { Sparkles, Activity, Square, Radio } from 'lucide-react';
+import { Sparkles, Activity, Radio } from 'lucide-react';
 
 export const Controller: React.FC<{ onBack: () => void }> = ({ onBack }) => {
   const [customPrompt, setCustomPrompt] = useState("");
