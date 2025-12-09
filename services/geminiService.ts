@@ -1,4 +1,4 @@
-import { GoogleGenAI, Type, SchemaType } from "@google/genai";
+import { GoogleGenAI, Type } from "@google/genai";
 
 // Initialize Gemini client
 // Note: In a real production app, you might proxy this through a backend to keep the key secret,
