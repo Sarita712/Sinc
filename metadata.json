@@ -1,0 +1,7 @@
+{
+  "name": "VibeSync",
+  "description": "A remote tactile feedback application connecting two devices. Use one device to control vibration patterns on another. Features AI-generated haptic patterns.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
